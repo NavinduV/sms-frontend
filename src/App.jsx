@@ -10,7 +10,7 @@ import AccountPage from './pages/AccountPage';
 import AppointmentPage from './pages/AppointmentPage';
 import { useContext } from 'react';
 
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'https://tattoo-shop-api.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
